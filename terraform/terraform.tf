@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "actions-bucket25"
+    bucket = "iac-bucket25"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
